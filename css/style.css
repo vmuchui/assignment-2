@@ -1,3 +1,23 @@
-body {
-   
+#home {
+   background-image: url(../assets/backgrounds/h_img.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center center;
+   text-align: center;
+   height: 800px;
+}
+#welcome {
+    padding-top: 300px;
+}
+
+#welcome_text {
+    font-size: 60px;
+}
+#amazing {
+    font-size: 20px;
+}
+#about {
+    text-align: center;
+    background-color: cadetblue;
 }
