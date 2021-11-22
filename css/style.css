@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(229, 229, 241);
+}
+
 #home {
    background-image: url(../assets/backgrounds/h_img.jpg);
    background-repeat: no-repeat;
@@ -17,7 +21,34 @@
 #amazing {
     font-size: 20px;
 }
+
 #about {
     text-align: center;
-    background-color: cadetblue;
+}
+#about_text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#services {
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 400px;
+}
+#services_text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#social {
+    text-align: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+}
+#contact_us {
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    height: 400px;
 }
